@@ -1,0 +1,103 @@
+.header{
+    align-items: center;
+}
+.company_logo{
+    margin-left: 42%;
+    margin-right: 50%;
+}
+.home,.products,.category,.contact,.about,.cart{
+    margin-left:20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navigation{
+    background-color:black;
+    padding: 30px 50px;
+    position: sticky;
+}
+.home:hover,.products:hover,.category:hover,.contact:hover,.about:hover{
+    border-bottom: 3px white solid;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+.cart{
+    margin-left: 300px;
+}
+.main_div{
+    border: black solid ;
+    margin: 10% 25% 25% 25%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.about_us{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.social_media{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+.bharat{
+    font-size: 20px;
+}
+.company_logo_about{
+    margin-left: 37%;
+    margin-right: 50%;
+}
+.footer{
+    display: flex;
+}
+.table{
+    text-align:left ;
+}
+.table_div{
+    margin-left: 270px;
+}
+.footer_image{
+    /* margin-right: 350px; */
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: black;
+    height: 190px;
+}
+.row1,.row2,.row3{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    padding-right: 150px;
+}
+.row1{ 
+    padding-bottom: 16px;
+}
+.row1:hover,.row2:hover,.row3:hover{
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline white solid;
+}
+.quick_link,.new_product,.support{
+    text-decoration: none;
+    color: white;
+    /* padding: 8px; */
+    padding-bottom: 20px;
+    /* padding-left: 0px; */
+}
+.copyright{
+    background-color: black ;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.quick_link:hover,.new_product:hover,.support:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,87 @@
+.header{
+    align-items: center;
+}
+.company_logo{
+    margin-left: 42%;
+    margin-right: 50%;
+}
+.home,.products,.category,.contact,.about,.cart{
+    margin: left 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navigation{
+    background-color:black;
+    padding: 30px 50px;
+    position: sticky;
+}
+.home:hover,.products:hover,.category:hover,.contact:hover,.about:hover{
+    border-bottom: 3px white solid;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+.cart{
+    margin-left: 200px;
+}
+.category_item_flex{
+    display: flex;
+    padding: 50px;
+}
+.product{
+    margin: 40px;
+    border: black solid ; 
+    border-radius: 10px; 
+    width: 250px;
+    
+}
+.product_company{
+    text-align: center;
+    font-size: xx-large;
+}
+.product_description{
+    margin-left: 0%;
+    text-decoration: none;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.product_description:hover{
+    text-decoration: underline;
+}
+.product_price{
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+    margin-left: 30%;
+}
+.product_image{
+    border-bottom: black solid;
+    text-decoration: none;
+    width:250px;
+    height:350px;
+}
+.product_flexbox_1,.product_flexbox_2,.product_flexbox_3{
+    display: flex;
+}
+.filters{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.sidebar{
+    border-right:gray solid;
+    padding-right: 40px;
+}
+.Categories{
+    font-size: larger;
+    text-decoration: none;
+    border: 2px black solid;
+    background-color: #D3D3D3;
+    padding: 4px;
+    color: black;
+}
